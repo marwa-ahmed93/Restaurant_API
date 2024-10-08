@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap Link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font-awesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- css Link -->
+    <link rel="stylesheet" href="style.css">
+  <title>API-PROJRCT</title>
+</head>
+
+<body>
+
+  <header class="vh-100 text-light d-flex flex-wrap justify-content-center align-items-start position-relative">
+    <nav class="navbar w-100 navbar-expand-lg navbar-light bg-dark ">
+      <div class="container-fluid ">
+        <a class="navbar-brand text-white fst-italic" href="./index.html">spcica</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="./html/recipe.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="./html/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="./html/contactUs.html">Contacts</a>
+            </li>
+
+
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-white font-weight-bolder w-100 text-center">Never Miss a Recipe!</h1>
+    <!-- <div class="caption vh-100 text-light d-flex justify-content-center align-items-center">
+
+         
+            <h2 class="text-white">Never Miss a Recipe!</h2>
+      
+
+        </div> -->
+
+
+    <!-- <div class="searchInput shadow p-3 mb-5 bg-body rounded position-absolute rounded position-absolute top-100 start-50 translate-middle">
+              
+          <div class="row w-100">
+
+             <div class="col-md-10">
+              <input class="p-2 w-100" placeholder="Search recipes" type="text">
+             </div>
+               
+             <div class="col-md-2">
+              <button id="searchBtn" class="btn  rounded-mine btn-warning btn-block text-white btn-mine">search</button>
+             </div> 
+          </div>
+            
+              
+          
+        
+            
+         
+
+        </div> -->
+
+    <!-- <div class="searchBtn">
+                   <div class="row shadow p-3 mb-5 bg-body rounded form-group"> 
+                    <div class="inCl col-md-10">
+                       <input placeholder="search recipes" class="form-control m-0" type="text">
+                    </div>
+
+                    <div class="col-md-2">
+                      <button id="searchBtn" type="button" class="serchButtonY btn btn-warning m-0 ">Warning</button>
+                    </div>
+
+                   </div>
+            </div>     -->
+
+
+    <div class="btn-group shadow-lg p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle"
+      role="group" aria-label="Basic outlined example">
+      <input id="searchInput" class="form-control" placeholder="search recipes">
+      <button id="searchBtn" type="button" class="serchButtonY btn btn-warning m-0 ">search</button>
+    </div>
+
+
+
+
+
+  </header>
+
+
+
+<section>
+
+
+
+<div class="RecipeCaption">
+
+  <div class="caption pt-5 m-auto w-75 d-flex justify-content-center flex-wrap">
+
+    <div>
+      <h2 class="fw-light">Recipe Categories</h2>
+    </div>
+
+<div class="w-75">  
+  <p class="fw-light w-75 m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto labore nobis nihil. Impedit autem aliquid sint quidem delectus laboriosam numquam?</p>
+</div>
+
+  </div>
+
+
+    <div class="mt-5 mb-5">
+      <div class="row menuRow">
+        <div class="mealMenu text-align-center d-flex justify-content-center pt-2">
+              <h4>Meal Type</h4>
+        </div>
+
+        <div class="mealMenu d-flex justify-content-center pt-2">
+          <h4>Diet & Health</h4>
+        </div>
+
+        <div class="mealMenu d-flex justify-content-center pt-2">
+          <h4>Ingredient</h4>
+        </div>
+
+
+        <div class="mealMenu d-flex justify-content-center pt-2">
+          <h4>Dish Type</h4>
+        </div>
+
+      </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+  <div class="container-fluid text-left">
+    <div class="row" id="recipesDetailsRow">
+
+      <div class="col-md-8">
+
+        <div class="row" id="recipesRow">
+
+    
+
+          
+       </div>
+
+        </div>
+
+        <div id="recipeDetails" class="col-md-4">
+          <!-- recipes details -->
+         
+        </div>
+  
+
+    
+
+      </div>
+
+
+      <!-- <ul class="fa-ul py-3"> 
+        <li><span class="fa-li font-weight-bolder"><i class="fa-solid fa-spoon"></i></span>1 3/4 (.44 ounce) teaspoons salt</li>
+      </ul> -->
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+
+</header>
